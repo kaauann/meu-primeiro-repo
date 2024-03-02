@@ -5,7 +5,51 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CSS</title>
-    <link rel="stylesheet" href="styles.css">
+
+    <style>
+        body {
+            margin: 0;
+        }
+
+
+        .card {
+            width: 500px;
+            height: fit-content;
+            border: 3px solid black;
+            border-radius: 25px;
+            background-color: aliceblue;
+            margin: 10px;
+        }
+
+        .card-image {
+            width: 100px;
+            border-radius: 50%;
+        }
+
+        .card-image img {
+            width: 70%;
+            height: 70%;
+
+        }
+
+        .card-titulo {
+            font-size: 35px;
+
+        }
+
+        .card-titulo-nome {
+            color: aqua;
+
+        }
+
+        .card-mensagem span {
+            font-weight: bold;
+            font-style: italic;
+            color: #b11a1a;
+
+        }
+    </style>
+
 </head>
 
 <body class="body">
@@ -34,7 +78,7 @@
         <div class="card-text-style">
             <h1 class="card-titulo"><span> Meu nome é:
                     <span class="card-titulo-nome">Fabio</span></h1>
-            <p class="card-mensagem"> Mensagem: <span>a vida é bela</span></p>
+            <p class="card-mensagem"> Mensagem: <span>Ser ou não ser, eis a questão</span></p>
         </div>
     </div>
 
